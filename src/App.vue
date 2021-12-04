@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <h1>Test</h1>
-    <button>Test</button>
     <router-view></router-view>
   </div>
 </template>
@@ -20,8 +18,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-size: min(calc(40px + 1.5vw), 60px);
 }
 </style>
